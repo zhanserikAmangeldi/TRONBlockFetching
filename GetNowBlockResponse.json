@@ -1,0 +1,46 @@
+{
+  "blockID": "00000000034ab078d5f6e71d82661f9ae12a95899e1ebf06065249e0fac7746a",
+  "block_header": {
+    "raw_data": {
+      "number": 55226488,
+      "txTrieRoot": "a32d1619fa83bc888eb3ac694bc36290e2b3f636f02466929ae9bee8b134030c",
+      "witness_address": "410102255809ed8d2139c533b8ebfda9131a9bbbc8",
+      "parentHash": "00000000034ab077ab8c9ff4a58d8ee8ddbe35dcf8a2ce4fd57766ed3effbfa9",
+      "version": 31,
+      "timestamp": 1749539547000
+    },
+    "witness_signature": "396a063aefa1e03122534a36bdaf978653ebbea85cbdbcd56bf654df6dc4f92078401746ab814eccdaf1dead8fc62755bdb5c4b283cb21c582043ba477db62a901"
+  },
+  "transactions": [
+    {
+      "ret": [
+        {
+          "contractRet": "SUCCESS"
+        }
+      ],
+      "signature": [
+        "4d2b610bcd77ff6f0d8eeb36a05fec7bd7b9f743b7caefb6eff8ba364def2bbf66bf90186f6e1f4b7edc06cde4f8ca1eff67e7ce1fb2bf7d9672bc55c7c0dfa71b"
+      ],
+      "txID": "1ee79c2cdd05e12727d7449f638fd7dc97a21c30e6693851d5eefde173c29efe",
+      "raw_data": {
+        "contract": [
+          {
+            "parameter": {
+              "value": {
+                "owner_address": "41000f2be7e06ab4e95048ff43d71bedc76bca19d1",
+                "unfreeze_balance": 2000000
+              },
+              "type_url": "type.googleapis.com/protocol.UnfreezeBalanceV2Contract"
+            },
+            "type": "UnfreezeBalanceV2Contract"
+          }
+        ],
+        "ref_block_bytes": "b076",
+        "ref_block_hash": "cbfa9f293588d5cb",
+        "expiration": 1749539601000,
+        "timestamp": 1749539541000
+      },
+      "raw_data_hex": "0a02b0762208cbfa9f293588d5cb40e8f4bec5f5325a59083712550a36747970652e676f6f676c65617069732e636f6d2f70726f746f636f6c2e556e667265657a6542616c616e63655632436f6e7472616374121b0a1541000f2be7e06ab4e95048ff43d71bedc76bca19d11080897a7088a0bbc5f532"
+    }
+  ]
+}
