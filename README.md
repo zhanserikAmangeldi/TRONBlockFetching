@@ -28,6 +28,8 @@ contracts ->
 - Contract types and parameters
 - Links to parent transaction
 
+![Database Schema Photo](./block.png)
+
 ## How It Works
 
 1. API Connection: Connects to TRON Shasta testnet API endpoint
@@ -42,4 +44,3 @@ contracts ->
 - `saveBlockData()`: Parses and stores block data in database
 - `createTables()`: Sets up database schema
 - `StartBlockMonitoring()`: Runs continuous monitoring loop
-
