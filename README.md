@@ -1,5 +1,7 @@
 # Simple script to get the TRON blocks
 
+<img src="./tron-trx-logo.png" style="display: block; margin: 50 auto;" width="100px" height="100px">
+
 A GOlang application that monitor and stores TRON blockchain data from the Shasta.
 
 ## Features
